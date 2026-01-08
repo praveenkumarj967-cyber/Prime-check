@@ -9,7 +9,10 @@ int main()
     {
         ans+=ans%i;
     }
-    if(ans!=0)cout<<"Not a prime";
-    else cout<<"Prime Number";
+    if(ans!=0)cout<<"Not a prime"<<endl;
+    else cout<<"Prime Number"<<endl;
+    // check for even or odd condition 
+    if(n%2==0)cout<<"Even"<<endl;
+    else cout<<"Odd"<<endl;
     return 0;
 }
